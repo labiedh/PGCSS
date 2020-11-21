@@ -1,0 +1,578 @@
+/* ___________________________________structure_________________________ */
+
+#entete {
+    width: 1340px;
+    background-color: black;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-variant: normal;
+}
+
+#contenu {
+    margin: 0%;
+}
+
+#footer {
+    background-color: black;
+    text-align: center;
+    clear: both;
+    bottom: 0;
+    width: 1340px;
+    height: 40px;
+}
+
+
+/*_____________________________________Navbar_____________________________*/
+
+.navbar {
+    overflow: auto;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 1340px;
+    font-family: Georgia, serif;
+    font-variant: normal;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 223.0666px;
+}
+
+.navbar a:hover {
+    background: #4caf50;
+    color: #f2f2f2;
+}
+
+.navbar a.active {
+    background-color: #3d042a;
+    color: white;
+}
+
+
+/* _________________________________Sections______________________________ */
+
+#home {
+    height: 660px;
+    width: 1340px;
+    margin-top: 20px;
+    background: url(../res/srv.jpg);
+    background-size: 1340px 660px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prof {
+    margin-top: 20px;
+    height: 660px;
+    width: 1335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#exper {
+    height: 660px;
+    width: 1340px;
+}
+
+#forma {
+    height: 660px;
+    width: 1340px;
+}
+
+#comp {
+    height: 660px;
+    width: 1340px;
+    width: 1335px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#con {
+    width: 1340px;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* _____________________________________body_________________________________ */
+
+h2 {
+    color: #4caf50;
+    font-family: Georgia, serif;
+    font-variant: normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    font-weight: 800;
+    margin-right: 150px;
+}
+
+h2:before {
+    width: 15px;
+    left: -35px;
+    content: "◊ ";
+    display: inline;
+    height: 1px;
+    color: #4caf50;
+    top: 8px;
+}
+
+
+/* ___________________________________Home_________________________________ */
+
+#home h3 {
+    color: #80ff00;
+    font-family: Palatino, URW Palladio L, serif;
+    font-style: oblique;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+#home h1 {
+    color: white;
+    font-family: Palatino, URW Palladio L, serif;
+    font-style: oblique;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-right: 150px;
+}
+
+#home div {
+    padding-right: 150px;
+    width: 700px;
+    height: 200px;
+    text-align: left;
+}
+
+
+/* __________________________________Profil__________________________________ */
+
+#prof div {
+    width: 550px;
+    height: 500px;
+}
+
+#prof p {
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 800;
+    margin-right: 150px;
+    padding-left: 65px;
+}
+
+#prof p1 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    padding-left: 250px;
+}
+
+#prof img {
+    background-size: 450px 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+
+/* ___________________________________exper______________________________ */
+
+#exper div {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 900px;
+    height: 400px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.listImage {
+    float: left;
+    margin: 2px;
+    width: 25px
+}
+
+#exper li {
+    list-style: none;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+#exper date {
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: white;
+    background: black;
+}
+
+#exper p1 {
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 800;
+}
+
+#exper i {
+    color: #4caf50;
+}
+
+
+/* __________________________________Formation____________________________ */
+
+#forma div {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 1100px;
+    height: 400px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#forma .listImage {
+    float: left;
+    margin: 3px;
+    width: 45px
+}
+
+#forma li {
+    list-style: none;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+#forma date {
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: white;
+    background: black;
+}
+
+#forma p1 {
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 800;
+}
+
+#forma i {
+    color: #4caf50;
+}
+
+
+/* ______________________________Compétences____________________________ */
+
+#comp .div1 {
+    width: 1300px;
+    height: 180px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#comp .div2 {
+    width: 470px;
+    height: 180px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 0px;
+}
+
+#comp p1 {
+    font-family: Georgia, serif;
+    text-align: center;
+    font-variant: normal;
+    font-size: 18px;
+    line-height: 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 800;
+}
+
+#comp p2 {
+    font-family: Georgia, serif;
+    text-align: center;
+    font-variant: normal;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 800;
+}
+
+#comp .div1 .listImg {
+    float: none;
+    margin: 2px;
+    width: 25px
+}
+
+#comp .div2 .listImg1 {
+    float: left;
+    margin: 2px;
+    width: 25px
+}
+
+#comp .div1 li {
+    list-style: none;
+    font-family: Georgia, serif;
+    text-align: center;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.div2 li {
+    list-style: none;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+
+/* _______________________________________Contact___________________________________________ */
+
+#con .div0 {
+    width: 1330px;
+    height: 20px;
+    text-align: left;
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* -------------------------------------info Perso--------------------------------------------*/
+
+#con .div1 {
+    width: 500px;
+    height: 410px;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.div1 .icon {
+    padding: 10px;
+    background: #EEEEEE;
+    color: #555555;
+    text-align: center;
+    width: 36px;
+    height: 40px;
+    padding: 6px 12px;
+}
+
+#con img {
+    margin: 2px;
+    width: 30px
+}
+
+#con p2 {
+    font-family: Georgia, serif;
+    text-align: left;
+    font-variant: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 800;
+}
+
+.div1 a {
+    font-family: Georgia, serif;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-variant: normal;
+    font-size: 12px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 800;
+}
+
+#con .rc {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -----------------------------------formulaire--------------------------------------------- */
+
+#con .div2 {
+    width: 500px;
+    height: 410px;
+    text-align: left;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 * {
+    box-sizing: border-box;
+}
+
+.div2 .input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.div2 .icon {
+    padding: 10px;
+    background: #EEEEEE;
+    color: #555555;
+    text-align: center;
+    width: 36px;
+    height: 40px;
+    padding: 6px 12px;
+}
+
+.div2 .input-field {
+    width: 250px;
+    height: 40px;
+    padding: 6px 16px;
+    outline: none;
+    margin: 0px;
+}
+
+.div2 .input-field:focus {
+    border: 1px solid #555555;
+}
+
+.div2 .input-group-addon {
+    padding: 10px;
+    background: #EEEEEE;
+    color: #555555;
+    width: 31px;
+    height: 40px;
+    text-align: center;
+}
+
+.form-control {
+    width: 286px;
+    height: 150px;
+    padding: 6px 12px;
+    margin: 0px;
+    font-size: 14px;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+
+.div2 .input-group-addon1 {
+    padding: 10px;
+    background: #EEEEEE;
+    color: #555555;
+    width: 31px;
+    height: 150px;
+    text-align: center;
+}
+
+.div2 .input-group {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+/*--------- button------- */
+
+.div2 .btn {
+    background-color: #E74C3C;
+    color: white;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    width: 315px;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.div2 .btn:hover {
+    opacity: 1;
+}
+
+
+/*___________________________________Footer___________________________*/
+
+#footer p {
+    font-family: Georgia, serif;
+    color: darkgrey;
+    text-align: center;
+}
+
+#footer a {
+    font-family: Georgia, serif;
+    color: #E74C3C;
+    text-decoration: none;
+}
